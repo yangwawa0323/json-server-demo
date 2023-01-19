@@ -1,0 +1,113 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "Linux基础命令入门",
+      "description": "如果你是一个第一次接触Linux的初学者，充满着对Linux世界的好奇，那么这门课程将领你进入全键盘操作的Linux环境",
+      "avatar": "https://picsum.photos/200/300",
+      "totalClasses": 24
+    },
+    {
+      "id": 2,
+      "title": "深入Linux内核",
+      "description": "这门课程将带你深入Linux内核，底层文件系统，磁盘阵列，逻辑卷",
+      "avatar": "https://picsum.photos/200/300",
+      "totalClasses": 29
+    }
+  ],
+  "classes": [
+    {
+      "id": 1,
+      "courseId": 1,
+      "title": "Linux黑客常用神器 vim",
+      "description": "这一切都从一个写字板的故事开始。",
+      "duration": "23:50",
+      "bookedCount": 203,
+      "addToFavorite": 29
+    },
+    {
+      "id": 2,
+      "courseId": 1,
+      "title": "Linux核心目录夹结构",
+      "description": "Everything is a file.Linux宗旨一切都是文件，不会操作文件可谓是寸步难行",
+      "duration": "20:19",
+      "bookedCount": 2022,
+      "addToFavorite": 294
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "Chad Cox109",
+      "avatar": "https://picsum.photos/200/300?random=1",
+      "gender": "女",
+      "age": 47,
+      "qq": "184829999",
+      "contact_phone": "15828740283",
+      "wechat": "yangkun_0239",
+      "birth": "1998-02-11",
+      "intergral": 920,
+      "favoritor": 45,
+      "messages": {
+        "admin": 6,
+        "friend": 24
+      },
+      "favoritee": {
+        "total": 22,
+        "users": [
+          {
+            "id": 19,
+            "username": "Joe doe"
+          },
+          {
+            "id": 44,
+            "username": "Stebin Ben"
+          },
+          {
+            "id": 27,
+            "username": "Abbie Fields"
+          },
+          {
+            "id": 19,
+            "username": "Chad Cox"
+          },
+          {
+            "id": 56,
+            "username": "Charlie Campbell"
+          }
+        ]
+      },
+      "posts": 142,
+      "address": {
+        "home": "长沙市韭菜园108号三栋903室",
+        "office": "长沙市芙蓉中路1020号华天大厦A座2808室"
+      }
+    },
+    {
+      "id": 2,
+      "username": "Yangwawa0323",
+      "avatar": "https://picsum.photos/200/300?random=2",
+      "gender": "男",
+      "age": 24,
+      "qq": "234729499",
+      "contact_phone": "15828740283",
+      "wechat": "yangkun_0239",
+      "birth": "1998-02-11",
+      "intergral": 920,
+      "favoritor": 45,
+      "messages": {
+        "admin": 6,
+        "friend": 24
+      },
+      "favoritee": {
+        "total": 0,
+        "users": []
+      },
+      "posts": 1243,
+      "address": {
+        "home": "长沙市韭菜园108号三栋1903-20室",
+        "office": "长沙市芙蓉中路1020号华天大厦A座2808室"
+      }
+    }
+  ]
+}
